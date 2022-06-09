@@ -36,7 +36,7 @@ extras["all"] = list(
 )
 
 # Uses the readme as the description on PyPI
-with open("README.md") as fh:
+with open("/content/RL_WS/env/gym_colab/README.md") as fh:
     long_description = ""
     header_count = 0
     for line in fh:
