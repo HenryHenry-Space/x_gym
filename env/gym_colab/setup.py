@@ -4,7 +4,7 @@ import re
 
 from setuptools import find_packages, setup
 
-with open("/content/RL_WS/env/gym/version.py") as file:
+with open("/content/RL_WS/env/gym_colab/version.py") as file:
     full_version = file.read()
     assert (
         re.match(r'VERSION = "\d\.\d+\.\d+"\n', full_version).group(0) == full_version
